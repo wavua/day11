@@ -1,0 +1,24 @@
+
+.container h1{
+text-align: center;
+font-size: 30px;
+font-family: baloo;	
+}
+.gallery-area{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.picture{
+	padding: 0 20px 20px;
+}
+img:hover{
+opacity: .5;
+transition: .9s;	 
+}
